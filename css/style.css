@@ -99,15 +99,22 @@ h1{
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.cardBody button{
+.cardBody a{
+    text-decoration: none;
+    position: relative;
+}
+.cardBody a button{
     background-color: #00669F;
-    color: white;
-    display: block;
-    width: 125px;
+    display: inline-block;
+    width: 113px;
     height: 45px;
     border: none;
-    margin-left: 75px;
-    margin-top: 10px;
+    cursor: pointer;
+    cursor: hand;
+    color: #f3f3f3;
+    position: absolute;
+    left: 75px;
+    top: 10px;
 }
 
 footer{
