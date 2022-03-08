@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Descuentos 20% */
+header {
+    background-color: #1CD1B0;
+    display: block;
+    height: 38px;
+    padding: 10px;
+}
+h4{
+    font-size: 15px;
+}
+
+/* Heroes titulo principal */
+.mainTitle{
+    background-color: #00669F;
+    display: block;
+    height: 80px;
+    box-shadow: 5px 5px 8px #888888;
+    position: relative;
+}
+h1{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+}
+
+/* Tarjetas */
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Encabezado de las tarjetas */
+.card{
+    background: #f3f3f3;
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin: 80px 25px 80px; 
+    box-shadow: 1px 1px 5px #888888;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.cardHeader{
+    display: block;
+    width: 300px;
+    height: 195px;
+    position: relative;
+}
+.batman{
+    background-image: url(../img/batman-bg.png);
+}
+.harley{
+    background-image: url(../img/harley-bg.png);
+}
+.spiderman{
+    background-image: url(../img/spiderman-bg.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.vector-corazon{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.foto-redonda{
+    border-radius: 60px;
+    display: block;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 130px;
+    left: 95px;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+/* Cuerpo de las tarjetas */
+.cardBody{
+    padding: 60px 15px 5px 15px;
+    background-color: #F3F3F3;
+}
+.cardBody h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+.cardBody p{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cardBody button{
+    background-color: #00669F;
+    color: white;
+    display: block;
+    width: 125px;
+    height: 45px;
+    border: none;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #00669F;
+    display: block;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 20px ;
+}
+footer p{
+    color: #f3f3f3;
+    font-size: 18px;
+    text-align: center;
+}
