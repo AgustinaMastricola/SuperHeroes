@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
     <title>Superhéroes</title>
 </head>
 <body>
 <!-- Encabezado -->
     <header>
-        <h4>Descuentos 20%</h4>
+        <section class="barraSup">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="barraInf">
+            <h1>Superhéroes</h1>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Registrarme</a></li>
+                <li><a href="">Ingresar</a></li>
+            </ul>
+        </nav>
     </header>
 <!-- Pagina 1 -->
     <main>
-    <!-- Titulo principal de la pagina -->
-        <section class="mainTitle">
-            <h1>Heroes</h1>
-        </section>
     <!-- Tarjetas -->
         <div class="cards-container">
         <!-- Batman -->
             <div class="card">
                 <div class="cardHeader batman">
-                    <img src="./img/corazon.png" class="vector-corazon" alt="corazon">
-                    <img src="./img/batman.png" class="foto-redonda" alt="batman">
+                    <img src="img/corazon.png" class="vector-corazon" alt="corazon">
+                    <img src="img/batman.png" class="foto-redonda" alt="batman">
                 </div>
                 <div class="cardBody">
                     <h2>Batman</h2>
@@ -59,6 +68,8 @@
                     <a href="https://www.cinemascomics.com/spider-man/" target="_blank"><button>Ver mas</button></a>
                 </div>
             </div>
+        <!-- Button añadir superheroe -->
+            <a href="/pages/addHeroe.html#formulario"><img src="/img/button+.png" alt="Agregar Superhéroe"></a>
         </div>
     </main>
 <!-- Pie de pagina -->
